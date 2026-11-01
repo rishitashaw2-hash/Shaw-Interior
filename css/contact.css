@@ -1,0 +1,316 @@
+body{
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Lato", sans-serif;
+}
+.container{
+width: 1170px;
+margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+header{
+    padding-bottom: 20px;
+}
+header img{
+    width: 180px;
+    margin-left: 50px;
+}
+header .navbar-nav{
+    margin: 0 100px;
+}
+header .navbar-light .navbar-nav .nav-link {
+    color: #3b3028;
+    font-weight: 600;
+}
+header .btn-secondary {
+    color: #fff;
+    background-color: #3b3028;
+    border-color: #3b3028;
+    border-radius:10px;
+    padding: 10px 15px;
+}
+header .navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #00000000;
+    border: 2px solid #b28a52;
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+.hero-section{
+    background-image: url(../images/contact\ us\ banner1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+.hero-section .overlay{
+    position: absolute;
+    background-color:#00000075;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.hero-section h1{
+    font-family: "Bodoni Moda", serif;
+    font-size: 40px;
+    line-height: 44px;
+    padding-bottom: 40px;
+    position: relative;
+    z-index: 1;
+}
+.hero-section p{
+    color: #fff;
+     position: relative;
+    z-index: 1;
+}
+.contact-us{
+    padding: 100px 0;
+    position: relative;
+}
+.contact-us::after {
+    position: absolute;
+    content: "";
+    background-color: #c2c2c2;
+    height: 511px;
+    width: 2px;
+    top: 92px;
+    bottom: 0;
+    left: 544px;
+    right: 0;
+}
+ .parent{
+    padding-left: 200px;
+    display: flex;
+    gap: 200px;
+}
+.form-group input{
+    width: 53%;
+    font-size: 10px;
+    color: #3b3028;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+}
+.contact-us .form-group textarea{
+    width: 55%;
+    margin-top: 10px;margin-bottom: 20px;
+}
+
+.contact-us h2{
+    padding-bottom: 30px;
+}
+.contact-us .col-lg-5 h2{
+    color: #b28a52;
+}
+.contact-us h5{
+    color: #3b3028;
+
+}
+.contact-us p{
+    padding-bottom: 20px;
+}
+.contact-us h5{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+.contact-us .address p{
+    padding: 5px 0;
+    font-size: 14px;
+} 
+.contact-us .form-page h2{
+    color: #3b3028;
+}
+.contact-us h5{
+    color: #3b3028;
+    font-weight: 700;
+}
+.contact-us .form-page a{
+    background-color: black;
+    padding: 15px 25px;
+    color: #fff;
+    font-size: 12px;
+}
+.contact-banner2 {
+    background-image: url(../images/contact\ us\ banner2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+.contact-banner2 .overlay{
+    position: absolute;
+    background-color:#00000075;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.contact-banner2 h2{
+    font-family: "Bodoni Moda", serif;
+    padding-bottom: 40px;
+    font-size: 45px;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+}
+.contact-banner2 p{
+   font-family: "Bodoni Moda", serif; 
+   color: #fff;
+   font-size: 25px;
+   padding-bottom: 50px;
+   position: relative;
+    z-index: 1;
+}
+.contact-banner2 a{
+    background-color: #b28a52;
+    padding:15px 30px;
+    color: #fff;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+}
+footer{
+    background-color: #f3f1ed;
+    padding: 100px 0;
+    border:5px solid #b28a52;
+}
+
+footer img{
+    width: 150px;
+    padding-bottom: 30px;
+}
+footer h2{
+    color: #3b3028;
+    font-size: 30px;
+    line-height: 34px;
+}
+footer h3{
+ margin: 20px 0;
+ position: relative;
+ 
+}
+footer h3::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 139px;
+    background-color: #b28a52;
+    top: 32px;
+    bottom: 0;
+    left: 0px;
+    right: 0;
+}
+footer .col-lg-4 ul li{
+padding-top: 5x;
+    margin-bottom: 10px;
+}
+footer .social{
+    margin-bottom: 40px;
+}
+footer .social a{
+    color: #b28a52;
+    margin-right: 20px;
+    font-size: 20px;
+}
+footer .email input{
+    width: 200px;
+    padding: 11px 10px;
+    border: 3px solid #3b3028;
+    background-color: transparent;
+    font-size: 15px;
+}
+footer .email button{
+    width: 60px;
+    background-color: #3b3028;
+    color: #fff;
+    font-size: 25px;
+    padding: 11px 5px;
+    margin-top: 2px;
+} 
+.bottom-footer{
+    background-color: #3b3028;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+    border: 5px solid #b28a52;
+}
+.bottom-footer span{
+    color: #b28a52;
+}
+
+/* responsive */
+
+@media (min-width: 576px) and (max-width: 768px) { 
+
+footer{
+    text-align: center;
+}
+footer h3{
+    color:#b28a52;
+    padding-top: 50px;
+}
+
+footer h3::after {
+    display: none;
+}
+footer .email button{
+    
+    padding: 10px 5px;
+    
+}
+.hero-section{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+.hero-section h1{
+    font-size: 30px;
+    line-height: 34px;
+    padding-bottom: 20px;
+    
+}
+.hero-section p{
+    font-size: 12px;
+}
+.contact-us::after{
+    display: none;
+}
+.contact-us .form-page h2{
+    padding-top: 50px;
+}
+.contact-banner2{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+.contact-banner2 h2{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.contact-banner2 p{
+   font-size: 12px;
+}
+}

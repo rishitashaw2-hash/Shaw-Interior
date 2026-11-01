@@ -1,0 +1,641 @@
+body{
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Lato", sans-serif;
+}
+.container{
+width: 1170px;
+margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+header{
+    padding-bottom: 20px;
+}
+header img{
+    width: 180px;
+    margin-left: 50px;
+}
+header .navbar-nav{
+    margin: 0 100px;
+}
+header .navbar-light .navbar-nav .nav-link {
+    color: #3b3028;
+    font-weight: 600;
+}
+header .btn-secondary {
+    color: #fff;
+    background-color: #3b3028;
+    border-color: #3b3028;
+    border-radius:10px;
+    padding: 10px 15px;
+}
+header .navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #00000000;
+    border: 2px solid #b28a52;
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+.banner{
+    background-image: url(../images/home-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    color: #fff;
+    position: relative;
+}
+.banner .overlay{
+    position: absolute;
+    background-color: #0000004f;
+    top: 0;
+    bottom:0;
+    left: 0;
+    right: 0;
+}
+.banner h1{
+    margin-left: 20%;
+    padding: 20px 0;
+    font-size: 60px;
+    position: relative;
+    z-index: 1;
+}
+.banner h4{
+    margin-left: 20%;
+    font-size:20px ;
+    padding-bottom: 30px;
+    position: relative;
+    z-index: 1;
+    
+}
+.banner h5{
+    margin-left: 20%;
+    font-size: 14px;
+    letter-spacing: 1px;
+    position: relative;
+    z-index: 1;
+   
+}
+.banner .button1{
+     margin-left: 20%;  
+}
+.banner .button1 .btn-secondary {
+    color: #3b3028;
+    background-color: #fff;
+    border:3px solid #b28a52;
+    padding: 10px 12px ;
+    border-radius: 5px;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+}
+.about{
+   padding: 100px 0; 
+   background-color: #ebebdb;
+   border: 5px solid #b28a52;
+}
+.about img{
+    width: 70%;
+    position: relative;
+}
+.about .overlay img{
+    position: absolute;
+    background-color: #0000004f;
+    top: 0;
+    bottom:0;
+    left: 0;
+    right: 0;
+
+}
+.about h4{
+    color: #b28a52;
+    font-weight: 400;
+    padding-bottom: 20px;
+
+}
+.about h2{
+    color: #3b3028;
+    font-family: "Bodoni Moda", serif;
+    font-weight: 700;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.about p{
+   padding-bottom: 40px;
+   color: #3b3028;
+
+}
+.about .btn-success {
+    color: #fff;
+    background-color: #b28a52;
+    border-color: #b28a52;
+    padding: 8px 20px;
+}
+.services{
+    background-color: #f2e8e0;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.services .box{
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 20px;
+}
+.services h2{
+    font-size:40px ;
+    color: #3b3028; 
+    padding-bottom: 30px;
+    position: relative; 
+}
+.services h2::after {
+    position: absolute;
+    content: "";
+    background-color: #b28a52;
+    width: 100px;
+    height: 3px;
+    top: 48px;
+    bottom: 0;
+    left: 46%;
+    right: 0;
+}
+.services p{
+   color: #3b3028;
+   font-size: 18px; 
+   line-height: 22px;
+   padding-bottom: 20px;
+}
+.services h3{
+   color: #3b3028; 
+   font-size: 18px;
+   line-height: 22px;
+   padding-bottom: 30px;
+   text-transform: capitalize;
+}
+.services svg{
+    padding-bottom: 10px;
+}
+.services h5{
+  color: #3b3028; 
+  text-transform: capitalize;  
+  padding-top: 10px;
+  position: relative;
+}
+.services h5::before {
+    position: absolute;
+    content: "";
+    background-color: #b28a52;
+    height: 2px;
+    width: 113px;
+    top: 35px;
+    bottom: 0;
+    left: 54px;
+    right: 0;
+}
+.our-products{
+    background-color: #3b3028;
+    padding: 100px 0;
+    border: 5px solid #b28a52;
+    color: #fff;
+}
+.our-products .col-lg-4 .image2 img {
+    width: 63%;
+    
+}
+.our-products .col-lg-4  .image3 img{
+    width: 85%;
+}
+.our-products .col-lg-4 img{
+    width: 80%;
+    border: 5px solid #b28a52;
+}
+
+.our-products h4{
+    color: #b28a52;
+    padding-left: 100px;
+    margin-bottom: 20px;
+}
+.our-products h2{
+    padding-left: 100px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 500;
+    font-family: "Lato", sans-serif;
+}
+.our-products h5{
+    padding-left: 100px;
+    margin-bottom: 30px;
+}
+.our-products h3{
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+.our-products p{
+    font-family: "Lato", sans-serif;
+    padding-bottom: 20px;
+}
+.our-products h6{
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+}
+.our-products h6::after {
+    position: absolute;
+    content: "";
+    background-color: #b28a52;
+    width: 97px;
+    height: 2px;
+    top: 23px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.advantage{
+    padding: 50px 0;
+    color: #3b3028;
+    background-color: #ebebdb;
+}
+.advantage .picture img{
+    width: 65%;
+}
+.advantage h4{
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+.advantage h2{
+    padding-bottom: 30px;
+}
+.advantage .one{
+    display: flex;
+    gap: 40px;
+    padding-bottom: 18px;
+    
+}
+.advantage .two{
+    display: flex;
+    gap: 40px;
+    padding-bottom: 18px;
+    
+}
+.advantage .three{
+    display: flex;
+    gap: 40px;
+    padding-bottom: 18px;
+    
+}
+.advantage .four{
+    display: flex;
+    gap: 40px;
+    padding-bottom: 20px;
+    
+}
+.banner2{
+    background-image: url(../images/home\ sec7\ banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+.banner2 .overlay{
+    position: absolute;
+    background-color: #00000059;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.banner2 h2{
+    font-size: 50px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    position: relative;
+    z-index: 1;
+}
+.banner2 h3{
+    font-size: 20px;
+    padding-bottom: 40px;
+    position: relative;
+    z-index: 1;
+
+}
+.banner2 .btn-secondary {
+    color:#3b3028;
+    background-color: #fff;
+    border:4px solid  #b28a52;
+    padding: 10px 25px;
+    position: relative;
+    z-index: 1;
+}
+ .testimonial{
+    background-color: #f2e8e0;
+    padding: 100px 0;
+    
+}
+.testimonial h4{
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 30px;
+     color: #3b3028;
+
+}
+.testimonial p{
+    padding-top: 10px;
+}
+.testimonial h5{
+    padding-top: 10px;
+}
+.testimonial h2{
+    font-family: "Bodoni Moda", serif;
+    text-align: center;
+    padding-bottom: 50px;
+    color: #b28a52;
+}
+.testimonial .box2{
+
+    background-color: #fff;
+    padding: 35px 40px;
+}
+
+.testimonial img{
+    width: 40%;
+    border-radius: 50%;
+}
+.testimonial .box{
+    background-color: #fff;
+    padding: 30px;
+}  
+footer{
+    background-color: #f3f1ed;
+    padding: 100px 0;
+    border:5px solid #b28a52;
+}
+
+footer img{
+    width: 150px;
+    padding-bottom: 30px;
+}
+footer h2{
+    color: #3b3028;
+    font-size: 30px;
+    line-height: 34px;
+}
+footer h3{
+ margin: 20px 0;
+ position: relative;
+ 
+}
+footer h3::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 139px;
+    background-color: #b28a52;
+    top: 32px;
+    bottom: 0;
+    left: 0px;
+    right: 0;
+}
+footer .col-lg-4 ul li{
+padding-top: 5x;
+    margin-bottom: 10px;
+}
+footer .social{
+    margin-bottom: 40px;
+}
+footer .social a{
+    color: #b28a52;
+    margin-right: 20px;
+    font-size: 20px;
+}
+footer .email input{
+    width: 200px;
+    padding: 11px 10px;
+    border: 3px solid #3b3028;
+    background-color: transparent;
+    font-size: 15px;
+}
+footer .email button{
+    width: 60px;
+    background-color: #3b3028;
+    color: #fff;
+    font-size: 25px;
+    padding: 11px 5px;
+    margin-top: 2px;
+} 
+.bottom-footer{
+    background-color: #3b3028;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+    border: 5px solid #b28a52;
+}
+.bottom-footer span{
+    color: #b28a52;
+}
+
+/* responsive */
+
+@media (min-width: 576px) and (max-width: 768px) { 
+
+footer{
+    text-align: center;
+}
+footer h3{
+    color:#b28a52;
+    padding-top: 50px;
+}
+
+footer h3::after {
+    display: none;
+}
+footer .email button{
+    
+    padding: 10px 5px;
+    
+} 
+.banner{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;  
+}
+.banner h1{
+    margin-left: 20%;
+    padding: 20px 0;
+    font-size: 30px;
+    
+}
+.banner h4{
+    margin-left: 20%;
+    font-size:10px ;
+    padding-bottom: 30px;
+    
+    
+}
+.banner h5{
+    margin-left: 20%;
+    font-size: 8px;
+    
+}
+.banner .button1{
+     margin-left: 20%;  
+}
+.banner .button1 .btn-secondary {
+    padding: 5px 6px ;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 500;
+    
+}
+.about img{
+    width: 50%;
+    padding-bottom: 30px;
+    
+}
+.about h4{
+    color: #b28a52;
+    font-weight: 400;
+    padding-bottom: 20px;
+    font-size: 12px;
+
+}
+.about h2{
+    
+    font-weight: 700;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+.about p{
+    font-size: 10px;
+    line-height: 14px;
+   padding-bottom: 40px;
+   color: #3b3028;
+
+}
+.about .btn-success {
+    font-size: 10px;
+    border-color: #b28a52;
+    padding: 4px 10px;
+}
+.services .box{
+   
+    padding: 30px 20px;
+    border-radius: 20px;
+}
+.services h2::after{
+    display: none;
+}
+.services h5::before{
+    display: none;
+}
+.our-products .col-lg-4 .image2 img {
+    width: 50%;
+    
+}
+.our-products .col-lg-4  .image3 img{
+    width: 50%;
+}
+.our-products .col-lg-4 img{
+    width: 50%;
+    border: 5px solid #b28a52;
+}
+.our-products h6{
+    padding-bottom: 50px;
+   
+}
+.our-products h4{
+    font-size: 15px;
+     padding-left: 0;
+}
+.our-products h2{
+font-size: 25px;
+ padding-left: 0;
+}
+.our-products h5{
+font-size: 10px;
+ padding-left: 0;
+}
+.advantage .picture img{
+    width: 50%;
+    padding-bottom: 30px;
+}
+.advantage h4{
+    font-size: 15px;
+}
+.advantage h2{
+    font-size: 25px;
+}
+.advantage p{
+    font-size: 10px;
+}
+.advantage svg{
+    height: 35px;
+    width: 35px;
+}
+.banner2{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;  
+}
+.banner2 h2{
+    font-size: 25px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    
+}
+.banner2 h3{
+    font-size: 10px;
+    padding-bottom: 40px; 
+}
+.banner2 .btn-secondary {
+     padding: 5px 15px;
+     font-size: 10px;   
+}
+ .testimonial .box{
+    background-color: #fff;
+    padding: 20px 15px;
+    text-align: center;
+    margin-bottom: 20px;
+} 
+.testimonial .box2{
+    text-align: center;
+    margin-bottom: 20px;
+} 
+.testimonial img {
+    width: 20%;
+    border-radius: 50%;
+    margin: 30px 0;
+  }
+  .testimonial h5{
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: #b28a52;
+    text-transform: uppercase;
+  }
+  .testimonial h6{
+    font-size: 12px;
+  }
+  .testimonial p{
+    padding-bottom: 20px;
+    font-size: 12px;
+  }
+}

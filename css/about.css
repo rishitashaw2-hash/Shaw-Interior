@@ -1,0 +1,339 @@
+body{
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Lato", sans-serif;
+}
+.container{
+width: 1170px;
+margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+header{
+    padding-bottom: 20px;
+}
+header img{
+    width: 180px;
+    margin-left: 50px;
+}
+header .navbar-nav{
+    margin: 0 100px;
+}
+header .navbar-light .navbar-nav .nav-link {
+    color: #3b3028;
+    font-weight: 600;
+}
+header .btn-secondary {
+    color: #fff;
+    background-color: #3b3028;
+    border-color: #3b3028;
+    border-radius:10px;
+    padding: 10px 15px;
+}
+header .navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #00000000;
+    border: 2px solid #b28a52;
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+.hero-section{
+    background-image: url(../images/about\ us\ banner\ hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    color: #fff ;
+    text-align: center;
+    position: relative;
+}
+.hero-section .overlay{
+    position: absolute;
+    background-color: #0000007d;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.hero-section h1{
+    font-family: "Bodoni Moda", serif;
+    font-size: 50px;
+    font-weight: 500;
+    padding-bottom: 50px;
+    position: relative;
+    z-index: 1;
+}
+.hero-section p{
+    font-size: 18px;
+    line-height: 22px;
+    position:relative;
+    z-index: 1;
+}
+.our-story{
+    padding: 100px 0;
+}
+
+.our-story .col-lg-5 img{
+    width: 70%;
+    border: 4px solid #3b3028 ;
+}
+.our-story h5{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #3b3028;
+    padding-bottom: 40px;
+    margin-top: 10px;
+}
+.our-story h2{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+     color: #3b3028;
+     padding-bottom: 50px;
+     font-size: 25px;
+     line-height: 29px;
+}
+.our-story p{
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    color: #3b3028;
+    padding-bottom: 60px;
+
+}
+.our-story .btn-primary {
+    color: #3b3028;
+    background-color: #b28a52;
+    border-color: #b28a52;
+}
+.mission {
+    background-color: #e7e4e1;
+    padding: 100px 0;
+    text-align: center;
+    border: 5px solid #b28a52;
+    color: #3b3028;
+}
+.mission h2{
+    margin-bottom: 80px;
+}
+.mission h3{
+   padding-top: 50px;
+}
+.mission p{
+    padding-top: 30px;
+}
+.mission h4{
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: #b28a52;
+}
+.team{
+    background-color: #3b3028;
+    padding: 100px 0;
+    color: #fff;
+    text-align: center;
+}
+.team .col-lg-4 img{
+    width: 70%;
+    border: 4px solid #b28a52;
+}
+
+.team h3{
+    padding-top: 20px;
+    position: relative;
+}
+.team h3::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 195px;
+    top: 58px;
+    bottom: 0;
+    left: 81px;
+    right: 0px;
+    background-color: #b28a52;
+}
+.team p{
+    padding-bottom: 40px;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+.team h2{
+    text-transform: capitalize;
+    padding-bottom: 40px;
+    position: relative;
+}
+.team h2::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 132px;
+    top: 41px;
+    bottom: 0;
+    left: 495px;
+    right: 0px;
+    background-color: #b28a52;
+}
+footer{
+    background-color: #f3f1ed;
+    padding: 100px 0;
+    border:5px solid #b28a52;
+}
+footer .main-box{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+footer img{
+    width: 150px;
+    padding-bottom: 30px;
+}
+footer h2{
+    color: #3b3028;
+    font-size: 30px;
+    line-height: 34px;
+}
+footer h3{
+ margin: 20px 0;
+ position: relative;
+ 
+}
+footer h3::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 139px;
+    background-color: #b28a52;
+    top: 32px;
+    bottom: 0;
+    left: 0px;
+    right: 0;
+}
+footer .col-lg-4 ul li{
+padding-top: 5x;
+    margin-bottom: 10px;
+}
+footer .social{
+    margin-bottom: 40px;
+}
+footer .social a{
+    color: #b28a52;
+    margin-right: 20px;
+    font-size: 20px;
+}
+footer .email input{
+    width: 200px;
+    padding: 11px 10px;
+    border: 3px solid #3b3028;
+    background-color: transparent;
+    font-size: 15px;
+}
+footer .email button{
+    width: 60px;
+    background-color: #3b3028;
+    color: #fff;
+    font-size: 25px;
+    padding: 11px 5px;
+    margin-top: 2px;
+} 
+.bottom-footer{
+    background-color: #3b3028;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+    border: 5px solid #b28a52;
+}
+.bottom-footer span{
+    color: #b28a52;
+}
+
+@media (min-width: 576px) and (max-width: 768px) { 
+
+footer{
+    text-align: center;
+}
+footer h3{
+    color:#b28a52;
+    padding-top: 50px;
+}
+
+footer h3::after {
+    display: none;
+}
+footer .email button{
+    
+    padding: 10px 5px;
+    
+} 
+.hero-section{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+.hero-section h1{
+    font-family: "Bodoni Moda", serif;
+    font-size: 35px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    
+}
+.hero-section p{
+    font-size: 12px;
+    line-height: 16px;
+    
+}
+.our-story .col-lg-5 img{
+    width: 50%;
+    
+}
+.our-story h5{
+    padding-top: 20px;
+}
+.mission p{
+    padding-bottom: 40px;
+}
+.mission h3{
+    padding-top: 30px;
+}
+.team .col-lg-4 img{
+    width: 50%;
+}
+.team h3::after{
+    display: none;
+}
+.team h3{
+    padding: 30px 0;
+    font-size: 25px;
+}
+.team h2::before{
+    display: none;
+}
+.team h2{
+    color: #b28a52;
+    text-transform: uppercase;
+}
+.team p{
+    font-size: 16px;
+}
+}
+
+
+
